@@ -1,0 +1,37 @@
+{
+  "name": "type-model-orm",
+  "version": "1.0.0",
+  "description": "Fully typed object-relational mappin library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RolledApple/TypeModelOrm.git"
+  },
+  "keywords": [
+    "ORM"
+  ],
+  "author": "Bogdan Loza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RolledApple/TypeModelOrm/issues"
+  },
+  "homepage": "https://github.com/RolledApple/TypeModelOrm#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.170",
+    "@types/node": "^15.12.1",
+    "@types/pg": "^8.6.0",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
